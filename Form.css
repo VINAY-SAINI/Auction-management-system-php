@@ -1,0 +1,132 @@
+/* Basic reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+}
+
+.shape:first-child {
+    background: linear-gradient(#1845ad, #23a2f6);
+    top: 15%;
+    left: 60%;
+}
+
+.shape:last-child {
+    background: linear-gradient(to right, #ff512f, #f09819);
+    bottom: 15%;
+    right: 60%;
+}
+
+/* Form Container */
+.form-container {
+    height: auto;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0px 8px 32px 0px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.form-container h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.form-control {
+    height: 45px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-primary {
+    width: 100%;
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    color: #ffffff;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0056b3, #00a6d1);
+}
+
+.invalid-feedback {
+    color: #ffdddd;
+    text-align: left;
+    font-size: 12px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .form-container {
+        width: 90%;
+        padding: 30px 20px;
+    }
+}

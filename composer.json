@@ -1,0 +1,15 @@
+{
+    "name": "vinaysaini/practice",
+    "description": "practice project using PHP and Composer",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vinaysaini\\Practice\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
