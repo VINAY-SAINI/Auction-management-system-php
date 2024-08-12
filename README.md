@@ -73,6 +73,9 @@ The Auction Management System is a web-based application that allows administrat
      ```
      http://localhost/auction-management-system
      ```
+<img width="1469" alt="Screenshot 2024-08-12 at 4 26 21 PM" src="https://github.com/user-attachments/assets/5742a53f-1f1a-4944-88ca-622c7840dc6e">
+<img width="1467" alt="Screenshot 2024-08-12 at 4 26 33 PM" src="https://github.com/user-attachments/assets/0c7779f8-3978-4c7d-bd50-0542bd80c225">
+<img width="1470" alt="Screenshot 2024-08-12 at 4 26 51 PM" src="https://github.com/user-attachments/assets/0549fae5-7d1e-4ead-bcbf-a2d695434ee5">
 
 ## Usage
 
