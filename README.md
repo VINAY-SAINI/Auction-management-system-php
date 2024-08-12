@@ -121,8 +121,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contact
 
 For any inquiries or support, please contact:
-- Email: support@auction-system.com
-- GitHub: [Your GitHub Profile](https://github.com/yourusername)
+- Email: vinaysaini7988@gmail.com
+- GitHub: [https://github.com/VINAY-SAINI]
 ```
 
 ### Summary:
