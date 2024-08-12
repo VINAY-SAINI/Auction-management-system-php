@@ -93,6 +93,7 @@ The Auction Management System is a web-based application that allows administrat
   - View active auctions.
   - Place bids within the specified price range.
   - Monitor the auction countdown timer.
+<img width="1278" alt="Screenshot 2024-08-12 at 4 24 10 PM" src="https://github.com/user-attachments/assets/347827ed-c86f-45cb-acb6-b1b1b3ea43cf">
 
 ## File Structure
 
